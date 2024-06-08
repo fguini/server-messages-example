@@ -5,7 +5,7 @@
   "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.9.0 <21.0.0",
   "gitPolicy": {},
   "repository": {
-    "url": "https://github.com/microsoft/rush-example", // TODO CHANGE
+    "url": "git@github.com:fguini/server-messages-example.git",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },
