@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.128.0",
+  "pnpmVersion": "9.2.0",
+  "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.9.0 <21.0.0",
+  "gitPolicy": {},
+  "repository": {
+    "url": "https://github.com/microsoft/rush-example", // TODO CHANGE
+    "defaultBranch": "main",
+    "defaultRemote": "origin"
+  },
+  "eventHooks": {
+    "preRushInstall": [
+      // "common/scripts/pre-rush-install.js"
+    ],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": [],
+    "preRushx": [],
+    "postRushx": []
+  },
+  "projects": [
+    {
+      "packageName": "the-server",
+      "projectFolder": "packages/the-server",
+      "reviewCategory": "production",
+      "tags": [ "node", "express", "server" ]
+    },
+    {
+      "packageName": "the-client",
+      "projectFolder": "packages/the-client",
+      "reviewCategory": "production",
+      "tags": [ "react", "client" ]
+    }
+  ]
+}
