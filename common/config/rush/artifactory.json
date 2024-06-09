@@ -1,5 +1,5 @@
 /**
- * This configuration file manages Rush integration with JFrog Artifactory services.
+ * This configuration file manages Rush integration with JFrog Artifactory components.
  * More documentation is available on the Rush website: https://rushjs.io
  */
 {

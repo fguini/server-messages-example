@@ -23,14 +23,14 @@ module.exports = {
  * are selected.
  * The `packageJson` parameter is the deserialized package.json
  * contents for the package that is about to be installed.
- * The `context` parameter provides a log() function.
+ * The `components` parameter provides a log() function.
  * The return value is the updated object.
  */
 function readPackage(packageJson, context) {
 
   // // The karma types have a missing dependency on typings from the log4js package.
   // if (packageJson.name === '@types/karma') {
-  //  context.log('Fixed up dependencies for @types/karma');
+  //  components.log('Fixed up dependencies for @types/karma');
   //  packageJson.dependencies['log4js'] = '0.6.38';
   // }
 
