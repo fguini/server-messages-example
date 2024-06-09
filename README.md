@@ -7,10 +7,14 @@ This example consist in a simple message sender and a list that shows all messag
 ### The client
 - Vite
 - React
+- @tanstack/react-query
 
 ### The server
 - Typescript
 - Express
+
+### Monorepo tools
+- RushJS
 
 ## Bibliography
 - https://developer.mozilla.org/en-US/docs/Web/API/EventSource
